@@ -5,12 +5,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Heliopedia</h1>
+        <p><strong>Dictionary</strong></p>
       </header>
       <main>
+        <p className="question">What word are you wondering today?</p>
         <Dictionary />
       </main>
-      <footer>Coded by Claudia Medel</footer>
+      <footer>Coded by <a href="https://github.com/Sea-Hummingbird/dictionary-app" target="blank">Claudia Medel</a></footer>
     </div>
   );
 }

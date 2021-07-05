@@ -1,0 +1,13 @@
+.text {
+  color: gray;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+a {
+  color: indigo;
+}
